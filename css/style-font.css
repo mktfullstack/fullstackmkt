@@ -1,0 +1,68 @@
+/*-------------------
+<!-- Página desarrollada  por fullstack marketing cireña webs, subida y alojada en github para que los desarrolladores puedan ver el codigo y usarlo para test. En FSM ayudamos los jóvenes que van empezando. Siguenos en Facebook: https://www.facebook.com/fullstackmkt/ y github como:https://github.com/mktfullstack-->
+*/
+/* 1. Typography */
+/* page header */
+/* title */
+.display-title,
+.section-home h1,
+.section-home h2,
+.media-service h4,
+.section-content h2,
+.section-content h3 {
+  font-family: "Jost", "Montserrat", "Open Sans", sans-serif; }
+
+.display-3 {
+  font-weight: bold !important; }
+
+.display-5 {
+  font-weight: bold; }
+
+.display-6 {
+  font-family: "Jost", "Montserrat", "Open Sans", sans-serif; }
+
+/* small text */
+.page-header-alpha .navbar-topmenu .navbar-nav-menu .nav-item,
+.scrolldown a,
+.btn-outline-white,
+.btn-outline-black,
+.display-subtitle,
+.display-condensed,
+.btn-divided .b-title {
+  font-family: "Jost", "Montserrat", "Open Sans", sans-serif; }
+
+.media-card .media-body h4 {
+  font-family: "Jost", "Montserrat", "Open Sans", sans-serif; }
+
+.media-aside-text .media-body h4 {
+  font-family: "Jost", "Montserrat", "Open Sans", sans-serif; }
+
+.media-feature h4 {
+  font-family: "Jost", "Montserrat", "Open Sans", sans-serif; }
+
+.media-slide-item-alpha .media-body h3,
+.media-slide-item-beta .media-body h3 {
+  font-family: "Jost", "Montserrat", "Open Sans", sans-serif;
+  font-weight: bold; }
+
+.page-header-drawer .navbar-mainmenu .mainmenu-content li,
+.page-header-drawer .navbar-mainmenu .mainmenu-content .nav-item {
+  font-family: "Jost", "Montserrat", "Open Sans", sans-serif; }
+
+.section-title .title-bg {
+  font-family: "Jost", "Montserrat", "Open Sans", sans-serif;
+  font-weight: bold; }
+
+.section-footer .navbar-brand .text .line {
+  font-family: "Jost", "Montserrat", "Open Sans", sans-serif; }
+
+/* Buttons */
+.btn-line,
+.scrolldown a {
+  font-family: "Jost", "Montserrat", "Open Sans", sans-serif; }
+
+.btn-transp-arrow .text {
+  font-family: "Jost", "Montserrat", "Open Sans", sans-serif; }
+
+.menu-icon .text {
+  font-family: "Jost", "Montserrat", "Open Sans", sans-serif; }

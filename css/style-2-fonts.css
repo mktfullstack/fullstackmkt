@@ -1,0 +1,55 @@
+/*-------------------
+Sample CSS overwriting main.css rules
+
+[Table of contents]
+    1. Typography
+[Typography]
+    font-family :
+    - Geometric : "Glacial Indifference", "Montserrat"
+    - Serif : "Serif, Playfair Display"
+*/
+/* 1. Typography */
+/* page header */
+body {
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans", sans-serif; }
+
+.page-header-alpha .navbar-mainmenu .nav-item {
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans", sans-serif; }
+
+.section-title .title {
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans", sans-serif; }
+
+/* title */
+.display-title,
+.section-home h1,
+.section-home h2,
+.media-service h4,
+.section-content h2,
+.section-content h3 {
+  font-family: "Playfair Display", serif; }
+
+.display-6 {
+  font-family: "Playfair Display", serif; }
+
+/* small text */
+.page-header-alpha .navbar-topmenu .navbar-nav-menu .nav-item,
+.scrolldown a,
+.btn-outline-white,
+.btn-outline-black,
+.display-subtitle,
+.display-condensed,
+.btn-divided .b-title {
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans", sans-serif; }
+
+.media-aside-text .media-body h4,
+.media-slide-item-alpha .media-body h3,
+.media-slide-item-beta .media-body h3 {
+  font-family: "Playfair Display", serif; }
+
+.page-header-drawer .navbar-mainmenu .mainmenu-content li,
+.page-header-drawer .navbar-mainmenu .mainmenu-content .nav-item {
+  font-family: "Playfair Display", serif; }
+
+.media-slide-item-beta .media-body h4,
+.media-slide-item-alpha .media-body h4 {
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans", sans-serif; }

@@ -1,0 +1,83 @@
+/*-------------------
+Sample CSS overwriting main.css rules
+
+[Table of contents]
+    0 General layout
+    1. Typography
+    2. page-header / .page-header
+    3 .sections / .section-register , .form-*
+    4. Scrolling behavior
+[Colors]
+    Blue : #0094D8;
+[Typography]
+    font-family :
+    - Serif : "Montserrat"
+*/
+/* 0 General layout */
+a {
+  color: #0094D8; }
+  a:hover {
+    color: rgba(0, 148, 216, 0.8); }
+
+/* 1. Typography */
+/* page header */
+.page-header-alpha .navbar-mainmenu .nav-item {
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans", sans-serif;
+  text-transform: none;
+  letter-spacing: 0; }
+
+.section-title .title {
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans", sans-serif;
+  text-transform: none; }
+
+/* title */
+.display-title,
+.section-home h1,
+.section-home h2,
+.media-service h4,
+.section-content h2,
+.section-content h3 {
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans", sans-serif; }
+
+/* small text */
+.page-header-alpha .navbar-topmenu .navbar-nav-menu .nav-item,
+.scrolldown a,
+.btn-outline-white,
+.btn-outline-black,
+.display-subtitle,
+.display-condensed,
+.btn-divided .b-title {
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans", sans-serif; }
+
+/* 2. page-header / .page-header */
+/* nav */
+.page-header-alpha .navbar-mainmenu .nav-item a:hover {
+  color: #0094D8; }
+
+/* 3 .sections */
+.section-home .home-cover {
+  background: url("../img/bg-default.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+/* title */
+.section.section-title-layout {
+  background: #1d1d1d; }
+  @media (min-width: 1024px) {
+    .section.section-title-layout {
+      background: rgba(255, 255, 255, 0.05); } }
+
+/* 4. Scrolling behavior */
+.page-cover:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 1;
+  transition: 0.3s; }
+
+.page-cover.scrolled:after {
+  background: rgba(0, 0, 0, 0.8); }

@@ -1,0 +1,69 @@
+/* <!-- Página desarrollada  por fullstack marketing cireña webs, subida y alojada en github para que los desarrolladores puedan ver el codigo y usarlo para test. En FSM ayudamos los jóvenes que van empezando. Siguenos en Facebook: https://www.facebook.com/fullstackmkt/ y github como:https://github.com/mktfullstack--> */
+
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('playfairdisplay-black-webfont.woff2') format('woff2'),
+         url('playfairdisplay-black-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('playfairdisplay-blackitalic-webfont.woff2') format('woff2'),
+         url('playfairdisplay-blackitalic-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('playfairdisplay-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('playfairdisplay-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('playfairdisplay-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}

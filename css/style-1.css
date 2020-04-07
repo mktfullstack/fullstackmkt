@@ -1,0 +1,177 @@
+/*-------------------
+Sample CSS overwriting main.css rules
+
+[Table of contents]
+    0 General layout
+    1. Typography
+    2. page-header / .page-header
+    3. sections / .section-home
+    4. components /.media .form
+[Colors]
+    Black : #3d3d3d;
+    Color level 1 : #f5eadf;
+    Color level 2 : #F1DECF;
+    Color level 3 : #d8c1af;
+[Typography]
+    font-family :
+    Geometric : "Glacial Indifference", "Montserrat"
+*/
+/* 0 General layout */
+/* 0 General layout */
+/* 0.1 Body */
+body,
+.body-page {
+  background-color: #ffffff;
+  color: #3d3d3d; }
+
+a {
+  color: #f5eadf; }
+  a:hover {
+    color: rgba(245, 234, 223, 0.8); }
+
+.bg-level-1 {
+  background-color: #f5eadf !important; }
+
+.bg-level-2 {
+  background-color: #F1DECF !important; }
+
+.bg-level-3 {
+  background-color: #d8c1af !important; }
+
+.bg-secondary {
+  background-color: #7e9ba3 !important; }
+
+/* 1. Typography */
+/* page header */
+.page-header-alpha .navbar-mainmenu .nav-item {
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans", sans-serif;
+  text-transform: none;
+  letter-spacing: 0; }
+
+.section-title .title {
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans", sans-serif;
+  text-transform: none; }
+
+/* title */
+.display-title,
+.section-home h1,
+.section-home h2,
+.media-service h4,
+.section-content h2,
+.section-content h3 {
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans", sans-serif; }
+
+/* small text */
+.page-header-alpha .navbar-topmenu .navbar-nav-menu .nav-item,
+.scrolldown a,
+.btn-outline-white,
+.btn-outline-black,
+.display-subtitle,
+.display-condensed,
+.btn-divided .b-title {
+  font-family: "Jost", "Glacial Indifference", "Montserrat", "Open Sans", sans-serif; }
+
+/* 2. page-header / .page-header */
+.page-header-drawer .navbar-sidebar .nav-item .icon {
+  background: none;
+  color: #3d3d3d; }
+
+.menu-icon .text {
+  color: #3d3d3d; }
+
+.menu-icon .bars .bar1, .menu-icon .bars .bar2, .menu-icon .bars .bar3 {
+  background: #3d3d3d; }
+
+/* nav */
+.page-header-alpha .navbar-mainmenu .nav-item a:hover {
+  color: #f5eadf; }
+
+.page-header-drawer .navbar-mainmenu .mainmenu-content {
+  background: #f5eadf; }
+  @media (min-width: 1024px) {
+    .page-header-drawer .navbar-mainmenu .mainmenu-content {
+      background: #f5eadf; }
+      .page-header-drawer .navbar-mainmenu .mainmenu-content::after {
+        display: none; } }
+
+.page-header-drawer.scrolled .navbar-brand {
+  -webkit-transform: translateY(-32px);
+          transform: translateY(-32px);
+  visibility: hidden;
+  opacity: 0; }
+
+.page-header.content-white .menu-icon .text {
+  color: #ffffff; }
+
+.page-header.content-white .menu-icon .bars .bar1, .page-header.content-white .menu-icon .bars .bar2, .page-header.content-white .menu-icon .bars .bar3 {
+  background: #ffffff; }
+
+.page-header.content-white .menu-icon.menu-visible .text {
+  color: #3d3d3d; }
+
+.page-header.content-white .menu-icon.menu-visible .bars .bar1, .page-header.content-white .menu-icon.menu-visible .bars .bar2, .page-header.content-white .menu-icon.menu-visible .bars .bar3 {
+  background: #3d3d3d; }
+
+.page-header.content-black .menu-icon.menu-visible .text {
+  color: #3d3d3d; }
+
+.page-header.content-black .menu-icon.menu-visible .bars .bar1, .page-header.content-black .menu-icon.menu-visible .bars .bar2, .page-header.content-black .menu-icon.menu-visible .bars .bar3 {
+  background: #3d3d3d; }
+
+/* 3. components */
+/* Media / .media- */
+.media-tile {
+  background: #f8f9fa;
+  color: #ffffff; }
+  .media-tile .media-body {
+    color: #3d3d3d; }
+  .media-tile.diseabled {
+    background: #e1e1e1; }
+
+/* Forms and buttons / .form-control- */
+.form-control-outline,
+.form-control-line {
+  border-color: #3d3d3d; }
+  .form-control-outline:focus,
+  .form-control-line:focus {
+    border-color: #5d5d5d; }
+
+.form-control-line.form-control-white {
+  border-color: #3d3d3d; }
+
+.content-white .form-control-line.form-control-white {
+  border-color: #ffffff; }
+
+.form-group label.error,
+.form-container-transparent.form-container-white .form-input label,
+.form-container-transparent .form-input input.form-control-line {
+  color: #3d3d3d; }
+
+/* Buttons / .btn-*/
+.btn-outline-white {
+  color: currentColor;
+  border-color: currentColor; }
+
+.btn-divided {
+  border-color: #f5eadf; }
+  .btn-divided .b-subtitle {
+    color: #f5eadf; }
+
+/* 4. sections */
+.section-home .home-cover {
+  background: url("../img/bg-white-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6; }
+  @media (min-width: 768px) {
+    .section-home .home-cover {
+      background: url("../img/bg-style-1.jpg");
+      background-size: cover;
+      background-position: center;
+      opacity: 1; } }
+
+.content-black h1, .content-black h2, .content-black h3, .content-black h4, .content-black h5, .content-black h6 {
+  color: #3d3d3d; }
+
+.content-white h1, .content-white h2, .content-white h3, .content-white h4, .content-white h5, .content-white h6 {
+  color: #ffffff; }
